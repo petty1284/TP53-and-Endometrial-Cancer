@@ -91,7 +91,7 @@ Mutation <- ggplot(endometrial_order, aes(x= reorder(Cell_Line, -AUC), y= ...9))
   theme(axis.line.x = element_blank(), axis.line.y = element_blank()) + theme(axis.text.y= element_text(size= 16, face= "bold"), legend.title = element_blank(), legend.direction = "horizontal", legend.text = element_text(size= 16)) + theme(plot.margin = unit(c(0,0,0,2), "mm"))
 
 ##Combine all graphs and save as jpeg file
-jpeg("Cell line heatmap, AUC vs Mutation vs VAF(4).jpeg", width= 1200, units= "px", res= 120)
+jpeg("Cell line heatmap, AUC vs Mutation vs VAF.jpeg", width= 1200, units= "px", res= 120)
 grid.newpage()
 print(VAF, vp = viewport(x = 0.4875, y = 0.63, width = 0.836, height = 0.12))
 print(VAF2, vp = viewport(x = 0.38, y = 0.48, width = 0.525, height = 0.12))
