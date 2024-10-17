@@ -4,9 +4,6 @@ library("openxlsx")
 library("readxl")
 library("tidyverse")
 library("BIGL")
-##Make sure files are read from R Analysis folder
-setwd("/Users/pettya/Desktop/R Analysis")
-
 
 #Analyzing AMG-232 + radiation combination experiments
 
