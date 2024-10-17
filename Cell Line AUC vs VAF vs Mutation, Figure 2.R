@@ -5,9 +5,6 @@ library(RColorBrewer)
 library(tidyverse)
 library(grid)
 
-#Set the working directory
-setwd("/Users/pettya/Desktop/R Analysis")
-
 #Heatmaps for endometrial cell line AUC, Mutation, and VAF (Figure 2A)
 ##Read in excel file with data for 23 CCLE endometrial cancer cell lines and keep only necessary columns
 endometrial <- read_xlsx("FSCNA versus AUC Cells -- Annotated for AF.xlsx", 1)
