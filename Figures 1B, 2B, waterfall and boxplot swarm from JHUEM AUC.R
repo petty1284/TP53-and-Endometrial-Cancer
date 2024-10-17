@@ -6,10 +6,6 @@ library(tidyverse)
 library(reshape2)
 library(ggbeeswarm)
 
-#Set the working directory
-setwd("/Users/pettya/Desktop/R Analysis")
-
-
 
 #Waterfall plot of Log2 AUC/mCherry for JHUEM1 and JHUEM2 (Figure 3B)
 ##Read in excel file with JHUEM1 and JHUEM2 variant Log2 AUC/mCherry data in long format
